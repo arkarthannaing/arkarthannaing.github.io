@@ -12,11 +12,12 @@ body::before {
     filter: grayscale(50%);
 }
 
-body.preload .card {
+body.preload .card,
+body.preload footer {
     opacity: 0;
 }
 
-.card {
+.card,footer {
     transition: opacity 2s ease;
 }
 
